@@ -1,0 +1,18 @@
+
+
+1.vue vscode extension 설치
+ - vetur 
+ - Debugger for chrome
+ - prettier - code formatter
+
+2. vue CLI 설치
+  - npm install -g @vue/cli 
+  - sudo npm i  @vue/cli -g  : 위에꺼로 설치 안되면 관리자모드로 설치
+
+3. vue 프로젝트 생성
+ - vue create vue-project 
+
+4. vue 프로젝트 실행
+ - cd vue-project : 생성된 프로젝트로 이동
+ - npm run serve : 서버실행 (기본 http://localhost:8080)
+ - npm run serve -- --port 포트번호 : 원하는 포트번호 지정
