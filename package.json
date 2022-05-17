@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "@vue/cli": "^5.0.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~5.0.0"
   }
 }
