@@ -1,7 +1,14 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/databinding">Data Binding</router-link>
+    <router-link to="/databinding">Data Binding</router-link> |
+    <router-link to="/DBHtml">v-html</router-link> |
+    <router-link to="/DBinputtext">input v-model</router-link> |
+    <router-link to="/DBinputnum">input v-model.number</router-link> |
+    <router-link to="/DBtextarea">v-model</router-link> |
+    <router-link to="/DBselect">v-model value</router-link> |
+    <router-link to="/DBcheckbox">v-model checked</router-link> |
+    <router-link to="/DBradio">v-bind:value</router-link> |
   </nav>
   <router-view/>
 </template>

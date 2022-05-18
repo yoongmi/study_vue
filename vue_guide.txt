@@ -16,3 +16,7 @@
  - cd vue-project : 생성된 프로젝트로 이동
  - npm run serve : 서버실행 (기본 http://localhost:8080)
  - npm run serve -- --port 포트번호 : 원하는 포트번호 지정
+
+
+DataBinding 공부
+1. v-model : form 입력 데이터 바인딩
