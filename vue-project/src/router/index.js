@@ -8,6 +8,11 @@ import DBtextarea from '../views/DBTextarea.vue'
 import DBselect from '../views/DBselect.vue'
 import DBcheckbox from '../views/DBcheckbox.vue'
 import DBradio from '../views/DBradio.vue'
+import DBattribue from '../views/DBattribue.vue'
+import DBbutton from '../views/DBbutton.vue'
+import DBclass from '../views/DBclass.vue'
+import DBstyle from '../views/DBstyle.vue'
+import DBlists from '../views/DBlist.vue'
 
 const routes = [
   {
@@ -59,6 +64,31 @@ const routes = [
     path: '/DBradio',
     name: 'DBradio',
     component: DBradio
+  },
+  {
+    path: '/DBattribue',
+    name: 'DBattribue',
+    component: DBattribue
+  },
+  {
+    path: '/DBbutton',
+    name: 'DBbutton',
+    component: DBbutton
+  },
+  {
+    path: '/DBclass',
+    name: 'DBclass',
+    component: DBclass
+  },
+  {
+    path: '/DBstyle',
+    name: 'DBstyle',
+    component: DBstyle
+  },
+  {
+    path: '/DBlist',
+    name: 'DBlist',
+    component: DBlists
   }
 ]
 

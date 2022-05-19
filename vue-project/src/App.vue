@@ -9,6 +9,11 @@
     <router-link to="/DBselect">v-model value</router-link> |
     <router-link to="/DBcheckbox">v-model checked</router-link> |
     <router-link to="/DBradio">v-bind:value</router-link> |
+    <router-link to="/DBattribue">img bind</router-link> |
+    <router-link to="/DBbutton">button disabled</router-link> |
+    <router-link to="/DBclass">bind class</router-link> |
+    <router-link to="/DBstyle">bind style</router-link> |
+    <router-link to="/DBlist">v-for</router-link> |
   </nav>
   <router-view/>
 </template>
