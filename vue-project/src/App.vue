@@ -14,6 +14,13 @@
     <router-link to="/DBclass">bind class</router-link> |
     <router-link to="/DBstyle">bind style</router-link> |
     <router-link to="/DBlist">v-for</router-link> |
+    <router-link to="/RenderingVif">v-if</router-link> |
+    <router-link to="/RenderingVshow">v-show</router-link> |
+    <router-link to="/EventClick">v-on:click</router-link> |
+    <router-link to="/EventChange">v-on:change</router-link> |
+    <router-link to="/EventKeyup">keyup</router-link> |
+    <router-link to="/ComputedTest">Computed</router-link> |
+    <router-link to="/WatchTest">watch</router-link> |
   </nav>
   <router-view/>
 </template>

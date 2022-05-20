@@ -1,5 +1,5 @@
-import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import { createRouter, createWebHistory } from 'vue-router'
 import DataBinding from '../views/DataBinding.vue'
 import DBhtml from '../views/DBHtml.vue'
 import DBinputtext from '../views/DBInputText.vue'
@@ -13,6 +13,13 @@ import DBbutton from '../views/DBbutton.vue'
 import DBclass from '../views/DBclass.vue'
 import DBstyle from '../views/DBstyle.vue'
 import DBlists from '../views/DBlist.vue'
+import RenderingVif from '../views/RenderingVif.vue'
+import RenderingVshow from '../views/RenderingVshow.vue'
+import EventClick from '../views/EventClick.vue'
+import EventChange from '../views/EventChange.vue'
+import EventKeyup from '../views/EventKeyup.vue'
+import ComputedTest from '../views/ComputedTest.vue'
+import WatchTest from '../views/WatchTest.vue'
 
 const routes = [
   {
@@ -89,6 +96,41 @@ const routes = [
     path: '/DBlist',
     name: 'DBlist',
     component: DBlists
+  },
+  {
+    path: '/RenderingVif',
+    name: 'RenderingVif',
+    component: RenderingVif
+  },
+  {
+    path: '/RenderingVshow',
+    name: 'RenderingVshow',
+    component: RenderingVshow
+  },
+  {
+    path: '/EventClick',
+    name: 'EventClick',
+    component: EventClick
+  },
+  {
+    path: '/EventChange',
+    name: 'EventChange',
+    component: EventChange
+  },
+  {
+    path: '/EventKeyup',
+    name: 'EventKeyup',
+    component: EventKeyup
+  },
+  {
+    path: '/ComputedTest',
+    name: 'ComputedTest',
+    component: ComputedTest
+  },
+  {
+    path: '/WatchTest',
+    name: 'WatchTest',
+    component: WatchTest
   }
 ]
 
