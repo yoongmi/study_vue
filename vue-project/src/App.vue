@@ -21,6 +21,7 @@
     <router-link to="/EventKeyup">keyup</router-link> |
     <router-link to="/ComputedTest">Computed</router-link> |
     <router-link to="/WatchTest">watch</router-link> |
+    <router-link to="/DBlistMoc">api 데이터가져오기</router-link> |
   </nav>
   <router-view/>
 </template>

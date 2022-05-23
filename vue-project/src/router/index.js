@@ -20,6 +20,7 @@ import EventChange from '../views/EventChange.vue'
 import EventKeyup from '../views/EventKeyup.vue'
 import ComputedTest from '../views/ComputedTest.vue'
 import WatchTest from '../views/WatchTest.vue'
+import DBlistMoc from '../views/DBlist2.vue'
 
 const routes = [
   {
@@ -131,6 +132,11 @@ const routes = [
     path: '/WatchTest',
     name: 'WatchTest',
     component: WatchTest
+  },
+  {
+    path: '/DBlistMoc',
+    name: 'DBlistMoc',
+    component: DBlistMoc
   }
 ]
 
