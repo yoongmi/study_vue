@@ -1,4 +1,5 @@
 <template>
+  <h2>BASIC</h2>
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/databinding">Data Binding</router-link> |
@@ -23,6 +24,12 @@
     <router-link to="/WatchTest">watch</router-link> |
     <router-link to="/DBlistMoc">api 데이터가져오기</router-link> |
   </nav>
+  <hr>
+  <h2>COMPONENTS</h2>
+  <nav>
+    <router-link to="/NestComp">컴포넌트 안에 컴포넌트</router-link>
+  </nav>
+  <hr>
   <router-view/>
 </template>
 

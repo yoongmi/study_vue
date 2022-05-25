@@ -21,6 +21,7 @@ import EventKeyup from '../views/basic/EventKeyup.vue'
 import ComputedTest from '../views/basic/ComputedTest.vue'
 import WatchTest from '../views/basic/WatchTest.vue'
 import DBlistMoc from '../views/basic/DBlist2.vue'
+import NestComp from '../views/deepen/NestedCompo.vue'
 
 const routes = [
   {
@@ -137,7 +138,12 @@ const routes = [
     path: '/DBlistMoc',
     name: 'DBlistMoc',
     component: DBlistMoc
-  }
+  },
+  {
+    path: '/NestComp',
+    name: 'NestComp',
+    component: NestComp
+  },
 ]
 
 const router = createRouter({
