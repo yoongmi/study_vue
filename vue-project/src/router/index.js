@@ -22,6 +22,11 @@ import ComputedTest from '../views/basic/ComputedTest.vue'
 import WatchTest from '../views/basic/WatchTest.vue'
 import DBlistMoc from '../views/basic/DBlist2.vue'
 import NestComp from '../views/deepen/NestedCompo.vue'
+import ParentComp from '../views/deepen/ParentComponent.vue'
+import ParentComp2 from '../views/deepen/ParentComponent2.vue'
+import ParentComp3 from '../views/deepen/ParentComponent3.vue'
+import ParentComp4 from '../views/deepen/ParentComponent4.vue'
+import ParentComp5 from '../views/deepen/ParentComponent5.vue'
 
 const routes = [
   {
@@ -143,6 +148,31 @@ const routes = [
     path: '/NestComp',
     name: 'NestComp',
     component: NestComp
+  },
+  {
+    path: '/ParentComp',
+    name: 'ParentComp',
+    component: ParentComp
+  },
+  {
+    path: '/ParentComp2',
+    name: 'ParentComp2',
+    component: ParentComp2
+  },
+  {
+    path: '/ParentComp3',
+    name: 'ParentComp3',
+    component: ParentComp3
+  },
+  {
+    path: '/ParentComp4',
+    name: 'ParentComp4',
+    component: ParentComp4
+  },
+  {
+    path: '/ParentComp5',
+    name: 'ParentComp5',
+    component: ParentComp5
   },
 ]
 

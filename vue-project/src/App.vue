@@ -27,7 +27,12 @@
   <hr>
   <h2>COMPONENTS</h2>
   <nav>
-    <router-link to="/NestComp">컴포넌트 안에 컴포넌트</router-link>
+    <router-link to="/NestComp">컴포넌트 안에 컴포넌트</router-link> |
+    <router-link to="/ParentComp">부모컴포넌트에서 자식컴포넌트 이벤트 발생</router-link> |
+    <router-link to="/ParentComp2">자식컴포넌트의 함수 직접호출</router-link> |
+    <router-link to="/ParentComp3">자식컴포넌트의 데이터 옵션값 직접변경</router-link> |
+    <router-link to="/ParentComp4">자식에서 부모로 이벤트/데이터 전달</router-link> |
+    <router-link to="/ParentComp5">부모에서 자식 데이터 옵션값 동기화</router-link> |
   </nav>
   <hr>
   <router-view/>
