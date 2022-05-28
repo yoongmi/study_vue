@@ -33,6 +33,8 @@
     <router-link to="/ParentComp3">자식컴포넌트의 데이터 옵션값 직접변경</router-link> |
     <router-link to="/ParentComp4">자식에서 부모로 이벤트/데이터 전달</router-link> |
     <router-link to="/ParentComp5">부모에서 자식 데이터 옵션값 동기화</router-link> |
+    <router-link to="/SlotModalLayout">slot modal</router-link> |
+    <router-link to="/ProvideInject">Provide/Inject</router-link> |
   </nav>
   <hr>
   <router-view/>

@@ -27,6 +27,8 @@ import ParentComp2 from '../views/deepen/ParentComponent2.vue'
 import ParentComp3 from '../views/deepen/ParentComponent3.vue'
 import ParentComp4 from '../views/deepen/ParentComponent4.vue'
 import ParentComp5 from '../views/deepen/ParentComponent5.vue'
+import SlotModalLayout from '../views/deepen/SlotUseModalLayout.vue'
+import ProvideInject from '../views/deepen/ProvideInject.vue'
 
 const routes = [
   {
@@ -173,6 +175,16 @@ const routes = [
     path: '/ParentComp5',
     name: 'ParentComp5',
     component: ParentComp5
+  },
+  {
+    path: '/SlotModalLayout',
+    name: 'SlotModalLayout',
+    component: SlotModalLayout
+  },
+  {
+    path: '/ProvideInject',
+    name: 'ProvideInject',
+    component: ProvideInject
   },
 ]
 
