@@ -37,6 +37,16 @@
     <router-link to="/ProvideInject">Provide/Inject</router-link> |
   </nav>
   <hr>
+  <h2>COMPONENTS</h2>
+  <nav>
+    <router-link to="/ComposiTion">Calculator</router-link> |
+    <router-link to="/ComposiTion2">Calculator2</router-link> |
+    <router-link to="/ComposiTion3">Calculator3</router-link> |
+    <router-link to="/ComposiTion4">Calculator4</router-link> |
+    <router-link to="/APIProvide">APIProvide</router-link> |
+    <router-link to="/MixinSin">Mixins</router-link> |
+    <router-link to="/PlugIns">PlugIns</router-link> |
+  </nav>
   <router-view/>
 </template>
 

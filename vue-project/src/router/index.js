@@ -29,6 +29,13 @@ import ParentComp4 from '../views/deepen/ParentComponent4.vue'
 import ParentComp5 from '../views/deepen/ParentComponent5.vue'
 import SlotModalLayout from '../views/deepen/SlotUseModalLayout.vue'
 import ProvideInject from '../views/deepen/ProvideInject.vue'
+import ComposiTion from '../views/composition/CompositionAPI.vue'
+import ComposiTion2 from '../views/composition/CompositionAPI2.vue'
+import ComposiTion3 from '../views/composition/CompositionAPI3.vue'
+import ComposiTion4 from '../views/composition/CompositionAPI4.vue'
+import APIProvide from '../views/composition/APIProvide.vue'
+import MixinSin from '../views/composition/MixinSin.vue'
+import PlugIns from '../views/composition/PlugIns.vue'
 
 const routes = [
   {
@@ -185,6 +192,41 @@ const routes = [
     path: '/ProvideInject',
     name: 'ProvideInject',
     component: ProvideInject
+  },
+  {
+    path: '/ComposiTion',
+    name: 'ComposiTion',
+    component: ComposiTion
+  },
+  {
+    path: '/ComposiTion2',
+    name: 'ComposiTion2',
+    component: ComposiTion2
+  },
+  {
+    path: '/ComposiTion3',
+    name: 'ComposiTion3',
+    component: ComposiTion3
+  },
+  {
+    path: '/ComposiTion4',
+    name: 'ComposiTion4',
+    component: ComposiTion4
+  },
+  {
+    path: '/APIProvide',
+    name: 'APIProvide',
+    component: APIProvide
+  },
+  {
+    path: '/MixinSin',
+    name: 'MixinSin',
+    component: MixinSin
+  },
+  {
+    path: '/PlugIns',
+    name: 'PlugIns',
+    component: PlugIns
   },
 ]
 
