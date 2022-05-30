@@ -46,6 +46,7 @@
     <router-link to="/APIProvide">APIProvide</router-link> |
     <router-link to="/MixinSin">Mixins</router-link> |
     <router-link to="/PlugIns">PlugIns</router-link> |
+    <router-link to="/StoreAccess">StoreAccess</router-link> |
   </nav>
   <router-view/>
 </template>
