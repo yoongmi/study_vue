@@ -8,6 +8,20 @@ const routes = [
     component: HomeView
   },
   {
+    path: '/kakaologin',
+    name: 'kakaologin',
+    component: () => import(/* webpackChunkName: "kakaologin" */ '../views/KakaoLogin.vue')
+  },{
+    path: '/NaverLogin',
+    name: 'NaverLogin',
+    component: () => import(/* webpackChunkName: "parent" */ '../views/NaverLogin.vue')
+  },
+  {
+    path: '/GoogleLogin',
+    name: 'GoogleLogin',
+    component: () => import(/* webpackChunkName: "GoogleLogin" */ '../views/GoogleLogin.vue')
+  },
+  {
     path: '/about',
     name: 'about',
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')

@@ -31,3 +31,5 @@ app.directive('focus',{
 
 
 // createApp(App).use(router).mount('#app')
+
+window.Kakao.init("fe556e6108846d16acc7cfe0b5bec432");

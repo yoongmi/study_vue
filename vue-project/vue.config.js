@@ -4,15 +4,22 @@ module.exports = defineConfig({
 })
 
 
-const target = 'http://127.0.0.1:3000'; //proxy 요청을 보낼 서버 주소
+const target = 'http://localhost:8080'; //proxy 요청을 보낼 서버 주소
 
-module.ecports = {
+module.exports = {
   devServer:{
     port:8000,
     procy:{
       '^/api':{
         target,
         changeOrigin:true,
+      }
+    }
+  },
+  devServer:{
+    proxy:{
+      '/oauth2.0':{
+        target:'https://nid.naver.com'
       }
     }
   }

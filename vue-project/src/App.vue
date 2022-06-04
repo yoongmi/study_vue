@@ -47,6 +47,9 @@
     <router-link to="/MixinSin">Mixins</router-link> |
     <router-link to="/PlugIns">PlugIns</router-link> |
     <router-link to="/StoreAccess">StoreAccess</router-link> |
+    <router-link to="/kakaologin">kakaologin</router-link> |
+    <router-link to="/naverlogin">naverlogin</router-link> |
+    <router-link to="/GoogleLogin">GoogleLogin</router-link> |
   </nav>
   <router-view/>
 </template>
